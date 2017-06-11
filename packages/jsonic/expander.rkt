@@ -1,5 +1,6 @@
 #lang br/quicklang
 (require json)
+(require libuuid)
 
 (define-macro (js-module-begin PARSE-TREE)
   #'(#%module-begin
