@@ -1,4 +1,6 @@
 #lang jsonic
+// Brooks Mershon
+//
 // A recursive definition for a random tree structure,
 // written in jsonic, which extends JSON to support
 // arbitray Racket symbolic expressions (S-expressions).
@@ -6,8 +8,7 @@
  "name": "root",
  "id": @$ (uuid-generate) $@,
  "type": @$ (list-ref '(5 20) (random 0 2)) $@,
- "children":
- @$
+ "children":@$
  ; The following expression creates a random list of nodes.
  (map
   ; No define allowed in an expression context, so the
@@ -32,7 +33,7 @@
                             (map (lambda (n) (node (- depth 1)))
                                  ; Random number of children in [0, max-width]
                                  (range 0 (random 0 3))))))))
-   ; The top level of the tree has 3 children with the following max-depths.
+   ; The top level of the tree has children with the following max-depths.
    '(3 8 4))
  $@
 }

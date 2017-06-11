@@ -1,14 +1,158 @@
 {
- "name": "root",
- "children": [
-   {
-    "name": 1,
-    "children":[
-      {
-        "name":0,
-        "children":[]
-      }
-    ]
-   }
+  "name": "root",
+  "id": "D38CE8F3-5978-491E-ACCA-ECA1D8A172B0",
+  "type": 5,
+  "children": [
+    {
+      "type": 5,
+      "id": "F23E4B2A-E037-4AE6-B3B7-8B3BDE589CC8",
+      "name": 3,
+      "children": [
+        {
+          "type": 20,
+          "id": "1DAF8B54-4689-4BED-AC67-41425390414C",
+          "name": 2,
+          "children": [
+            {
+              "type": 5,
+              "id": "2632A465-0724-4FD9-9BDA-8430DEE0C170",
+              "name": 1,
+              "children": [
+                {
+                  "type": 20,
+                  "id": "038966E8-4497-4511-95C1-164E03A3E67A",
+                  "name": 0,
+                  "children": []
+                },
+                {
+                  "type": 5,
+                  "id": "DD979F14-E6AE-4852-9588-8C7EABD533F0",
+                  "name": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 20,
+          "id": "8C5A10A1-954F-4416-BD26-A78AAB83F968",
+          "name": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "id": "8F58D24F-D1A5-4A88-861E-DBCFE0216BD6",
+      "name": 8,
+      "children": [
+        {
+          "type": 20,
+          "id": "CF237A1B-113F-4173-B293-6830AE98AB73",
+          "name": 7,
+          "children": [
+            {
+              "type": 20,
+              "id": "418F9649-06BB-4F00-AC47-A7926B0E6BE1",
+              "name": 6,
+              "children": [
+                {
+                  "type": 5,
+                  "id": "D2F64857-C523-40D7-A16C-09E881B1510B",
+                  "name": 5,
+                  "children": [
+                    {
+                      "type": 20,
+                      "id": "B118344B-9792-4FB0-A2DD-830E47C413AE",
+                      "name": 4,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": 20,
+                  "id": "FFFAC4C6-0F89-4E96-B0B4-5CF24948BC73",
+                  "name": 5,
+                  "children": [
+                    {
+                      "type": 20,
+                      "id": "D562334D-13B8-45DB-B70B-B70D62C65760",
+                      "name": 4,
+                      "children": []
+                    },
+                    {
+                      "type": 5,
+                      "id": "76F7B752-BF0F-43C5-AE91-894B137D3E72",
+                      "name": 4,
+                      "children": [
+                        {
+                          "type": 5,
+                          "id": "D640D835-C185-4DB6-BBD6-2822F4F4A72E",
+                          "name": 3,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "id": "1C142C3C-CA6E-4E84-96DB-8482AC8B7097",
+      "name": 4,
+      "children": [
+        {
+          "type": 20,
+          "id": "8519B8F9-954E-4F52-90BB-4F0F9B0F4D34",
+          "name": 3,
+          "children": [
+            {
+              "type": 5,
+              "id": "78ECB2E1-3B1B-4D99-BE9A-075361D928E6",
+              "name": 2,
+              "children": []
+            },
+            {
+              "type": 5,
+              "id": "890DB761-44F2-4573-A5CF-B2D4A649A414",
+              "name": 2,
+              "children": [
+                {
+                  "type": 5,
+                  "id": "F8450A63-4713-45C4-9850-7F1C7792EF2A",
+                  "name": 1,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 20,
+          "id": "7C8C5109-8DF0-4530-91C2-D74E7D2FB718",
+          "name": 3,
+          "children": [
+            {
+              "type": 5,
+              "id": "11FF34EF-D34D-42D2-AED2-DCB6AD52A488",
+              "name": 2,
+              "children": []
+            },
+            {
+              "type": 5,
+              "id": "B27084BC-620B-4781-B161-C94D732A89F4",
+              "name": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

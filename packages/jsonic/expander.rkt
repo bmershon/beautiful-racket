@@ -5,12 +5,14 @@
 (define-macro (js-module-begin PARSE-TREE)
   #'(#%module-begin
      (define result-string PARSE-TREE)
-    ; (define validated-jsexpr (string->jsexpr result-string))
+     (define validated-jsexpr (string->jsexpr result-string))
      (display result-string)))
 (provide (rename-out [js-module-begin #%module-begin]))
 
 (define-macro (jsonic-char CHAR-TOK-VALUE)
-  #'CHAR-TOK-VALUE)
+  ; String Trim here to "minify" the resulting JSON produced
+  ; by the source.
+  #'(string-trim CHAR-TOK-VALUE))
 (provide jsonic-char)
 
 (define-macro (jsonic-program SEXP-OR-JSON-STR ...)
