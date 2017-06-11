@@ -4,7 +4,7 @@
 (define-macro (js-module-begin PARSE-TREE)
   #'(#%module-begin
      (define result-string PARSE-TREE)
-     (define validated-jsexpr (string->jsexpr result-string))
+    ; (define validated-jsexpr (string->jsexpr result-string))
      (display result-string)))
 (provide (rename-out [js-module-begin #%module-begin]))
 
