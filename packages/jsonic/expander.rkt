@@ -1,6 +1,14 @@
 #lang br/quicklang
 (require json)
+
+; Allow for the generation of UUIDs in JSONic.
 (require libuuid)
+
+; Lorem Ipsum filler text available in JSONic
+(require "../../packages/lorem/lorem-ipsum.rkt")
+
+; Allow for recursion when define is now allowed.
+(require "./y-combinator.rkt")
 
 (define-macro (js-module-begin PARSE-TREE)
   #'(#%module-begin
