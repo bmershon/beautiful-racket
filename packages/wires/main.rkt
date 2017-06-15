@@ -34,10 +34,14 @@
     (lambda (num-or-wire)
       (if (number? num-or-wire)
           num-or-wire
+          ; num-or-wire may be a thunk provided to the hash table.
           (hash-ref! val-cache num-or-wire num-or-wire)))))
 
 (define (mod-16bit x) (modulo x 65536))
 (define-macro (define-16bit ID PROC-ID)
+  ; Perform the appropriate wire operation and then
+  ; ensure the value is only 16 bytes. This
+  ; appropriately simulates overflow in the wire problem.
   #'(define ID (compose1 mod-16bit PROC-ID)))
 
 (define-16bit AND bitwise-and)
