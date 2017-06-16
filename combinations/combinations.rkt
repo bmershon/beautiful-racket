@@ -11,7 +11,7 @@
 (define print
   (lambda (prefix suffix)
     (cond
-      ((zero? (string-length suffix)) (displayln prefix))
+      ((zero? (string-length suffix)) (displayln (binary->decimal prefix)))
       ((equal? (substring suffix 0 1) "?")
        (begin
          (print (string-append prefix "0") (substring suffix 1))
